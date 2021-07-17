@@ -1,0 +1,13 @@
+{% macro fieldMacro(name, value="", type="text") %}
+  <div class="field">
+    <input type="{{ type }}" name="{{ name }}" value="{{ value | escape }}" />
+  </div>
+{% endmacro %}
+
+<h2>Macro</h2>
+{{ fieldMacro("macroUser") }}
+{{ fieldMacro("macroPass", type="password") }}
+
+<h2>Shortcode</h2>
+{% fieldShortcode "shortcodeUser" %}
+{% fieldShortcode "shortcodePass", type="password", value=("qwerty@?:&123" | escape) %}

@@ -1,0 +1,30 @@
+{
+  "name": "11ty-nunjucks-macro-test",
+  "description": "Testing Nunjucks macros vs Eleventy shortcodes.",
+  "version": "1.0.0",
+  "author": "Peter deHaan",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-nunjucks-macro-test/issues"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/11ty-nunjucks-macro-test#readme",
+  "keywords": [
+    "11ty",
+    "eleventy",
+    "macro",
+    "shortcode"
+  ],
+  "license": "MPL-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-nunjucks-macro-test.git"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
